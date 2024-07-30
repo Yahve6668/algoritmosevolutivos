@@ -1,0 +1,32 @@
+from graphviz import Digraph
+
+dot = Digraph()
+
+dot.node('A', 'Inicio')
+dot.node('B', 'Inicialización')
+dot.node('C', 'Bucle de Iteraciones')
+dot.node('D', 'Inicializar listas')
+dot.node('E', 'Bucle de Hormigas')
+dot.node('F', 'Inicializar visitadas y recorrido')
+dot.node('G', 'Bucle de Ciudades')
+dot.node('H', 'Finalizar Recorrido')
+dot.node('I', 'Actualizar Mejor Recorrido')
+dot.node('J', 'Actualizar Feromonas')
+dot.node('K', 'Imprimir Mejor Longitud')
+dot.node('L', 'Imprimir Mejor Recorrido Encontrado')
+dot.node('M', 'Fin')
+
+dot.edges(['AB', 'BC'])
+dot.edge('C', 'D')
+dot.edge('D', 'E')
+dot.edge('E', 'F')
+dot.edge('F', 'G')
+dot.edge('G', 'H')
+dot.edge('H', 'I')
+dot.edge('I', 'J')
+dot.edge('J', 'K')
+dot.edge('K', 'C')
+dot.edge('C', 'L')
+dot.edge('L', 'M')
+
+dot.render('diagrama_flujo', format='png')

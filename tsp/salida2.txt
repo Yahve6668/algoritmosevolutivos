@@ -1,0 +1,22 @@
+Ingrese el número de ciudades: Ingrese el número de la ciudad ciudad inicial: N de hormigas: N iteracionesN alfaN betaN rho(p) N DE qtau Ciudad 1: Ciudad 2: Ciudad 3: Ciudad 4: Ciudad 5: Iteración 1: Mejor longitud de recorrido = 52.0
+Iteración 2: Mejor longitud de recorrido = 52.0
+Iteración 3: Mejor longitud de recorrido = 52.0
+Iteración 4: Mejor longitud de recorrido = 52.0
+Iteración 5: Mejor longitud de recorrido = 52.0
+Iteración 6: Mejor longitud de recorrido = 52.0
+Iteración 7: Mejor longitud de recorrido = 52.0
+Iteración 8: Mejor longitud de recorrido = 52.0
+Iteración 9: Mejor longitud de recorrido = 52.0
+Iteración 10: Mejor longitud de recorrido = 52.0
+Iteración 11: Mejor longitud de recorrido = 52.0
+Iteración 12: Mejor longitud de recorrido = 52.0
+Iteración 13: Mejor longitud de recorrido = 52.0
+Iteración 14: Mejor longitud de recorrido = 52.0
+Iteración 15: Mejor longitud de recorrido = 52.0
+Iteración 16: Mejor longitud de recorrido = 52.0
+Iteración 17: Mejor longitud de recorrido = 52.0
+Iteración 18: Mejor longitud de recorrido = 52.0
+Iteración 19: Mejor longitud de recorrido = 52.0
+Iteración 20: Mejor longitud de recorrido = 52.0
+Mejor recorrido encontrado:
+[0, 1, 4, 2, 3, 0]

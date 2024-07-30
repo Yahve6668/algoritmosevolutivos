@@ -1,0 +1,61 @@
+Ingrese el incio del intervalo: Ingrese el fin del intervalo: [27, 19, 13, 12, 9, 7, 4, 3, 1, 0, 1, 3, 4, 7, 9, 12, 13, 19, 27]
+Iteración 1: Mejor longitud de recorrido = 4
+Mejor recorrido encontrado:
+(0, 2)
+Iteración 2: Mejor longitud de recorrido = 3
+Mejor recorrido encontrado:
+(1, 1)
+Iteración 3: Mejor longitud de recorrido = 1
+Mejor recorrido encontrado:
+(0, 1)
+Iteración 4: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 5: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 6: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 7: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 8: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 9: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 10: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 11: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 12: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 13: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 14: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 15: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 16: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 17: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 18: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 19: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
+Iteración 20: Mejor longitud de recorrido = 0
+Mejor recorrido encontrado:
+(0, 0)
