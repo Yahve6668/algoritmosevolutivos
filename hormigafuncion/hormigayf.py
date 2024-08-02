@@ -4,7 +4,7 @@ import random
 NUM_HORMIGAS = 2
 MAX_ITERACIONES = 30
 ALPHA = 10.0  # Influencia de la feromona
-BETA = 1.0   # Influencia de la distancia
+BETA = 100.0   # Influencia de la distancia
 RHO = 0.5    # Tasa de evaporación de la feromona ppp
 Q = 100.0    # Cantidad de feromona depositada por una hormiga
 
@@ -86,7 +86,7 @@ def aco(distancias, puntos_medios,puntos_medios_vistos,puntos):
             recorrido = []
             ciudad_inicial = 0
             if iteracion == 0:
-                ciudad_inicial =  9#random.randint(0, num_ciudades - 1)
+                ciudad_inicial =  random.randint(0, num_ciudades - 1)
             else :
                 ciudad_inicial = recorridos_ante[k]
             
@@ -96,7 +96,7 @@ def aco(distancias, puntos_medios,puntos_medios_vistos,puntos):
             if distancias[proxima_ciudad]<mejor_longitud:
                  mejor_longitud = distancias[proxima_ciudad]
                  mejor_recorrido = puntos[proxima_ciudad]
-
+        
         recorridos_ante = recorridos
         actualizar_feromonas(recorridos, distancias, feromonas)
         print(f"Iteración {iteracion + 1}: Mejor longitud de recorrido = {mejor_longitud}")
@@ -126,7 +126,7 @@ if __name__ == "__main__":
         mapa3.append( ((-1*mapa2[ len(mapa2) - x ][0],-1*mapa2[ len(mapa2) - x ][1] )  if x < len(mapa2)  else mapa2[x-len(mapa2)]) )
 
     evaluacion_f = [0] * len(mapa3)
-    #print(mapa3)
+    #print(len(mapa3))
     distancias = evaluador(mapa3) 
     print(distancias) 
     
