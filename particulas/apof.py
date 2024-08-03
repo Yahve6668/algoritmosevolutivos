@@ -14,7 +14,6 @@ w = 0.5
 c1 = 1.5  
 c2 = 1.5  
 
-# Inicializar la población de partículas con múltiples posiciones
 posicion_particulas = np.random.uniform(bounds[0], bounds[1], (numero_de_particulas, numero_posiciones_por_partícula, dimenciones))
 velocidad_particulas = np.zeros((numero_de_particulas, numero_posiciones_por_partícula, dimenciones))
 mejor_posicion_part = np.zeros((numero_de_particulas, dimenciones))
