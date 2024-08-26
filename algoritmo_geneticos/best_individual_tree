@@ -1,0 +1,4 @@
+// Expression Tree
+digraph {
+	"add(mul(ARG0, 1), mul(sin(ARG0), add(ARG0, mul(ARG0, add(ARG0, mul(ARG0, add(ARG0, 0)))))))" [label="add(mul(ARG0, 1), mul(sin(ARG0), add(ARG0, mul(ARG0, add(ARG0, mul(ARG0, add(ARG0, 0)))))))"]
+}

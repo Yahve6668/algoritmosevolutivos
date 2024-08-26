@@ -4,7 +4,7 @@ from itertools import combinations
 
 Tasa_Cruzamiento = 0.9
 Tasa_Mutacion = 0.025
-num_generaciones = 30
+num_generaciones = 600
 def generador_poblacion(ini, fin, t_p):
     unique_numbers_p = []
     for _ in range(10):
@@ -74,7 +74,7 @@ def ajustar_valor_circular(valor, min_val=-10, max_val=10):
 def muta(x):
     numero_aleatorio = random.choice([0, 1, 2])
     arr = [3,0.5,2]
-    nuevo_valor = x[numero_aleatorio] * 0.25 +  arr[numero_aleatorio]
+    nuevo_valor = x[numero_aleatorio] * 0.25 +  random.choice(range(0, 8))*.6
     x[numero_aleatorio] = ajustar_valor_circular(nuevo_valor)
     return x
 

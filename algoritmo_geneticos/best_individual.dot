@@ -1,0 +1,3 @@
+digraph {
+	0 [label="add(mul(ARG0, ARG0), mul(add(ARG0, mul(ARG0, mul(mul(add(ARG0, mul(ARG0, ARG0)), 1), ARG0))), 1))"]
+}
